@@ -28,7 +28,7 @@ if( isset( $_SESSION['login'] ) ){
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand " href="#">
+            <a class="navbar-brand text-primary" href="#">
                 <?php if( isset( $hello) ) : ?>
                     bonjour : <?= $hello ?>
                 <?php else : ?>
