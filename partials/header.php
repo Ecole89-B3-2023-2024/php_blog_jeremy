@@ -50,6 +50,9 @@ if( isset( $_SESSION['login'] ) ){
                 <li class="nav-item">
                 <a class="nav-link" href="#">Mon profil</a>
                 </li>
+                <li class="nav-item">
+                <a class="nav-link" href="/php_blog_jeremy/list_users.php">Liste des utilisateurs</a>
+                </li>
                 <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Articles
